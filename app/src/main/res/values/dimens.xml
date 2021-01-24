@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="mg_top_list">150dp</dimen>
+    <dimen name="height_img_basket">275dp</dimen>
+    <dimen name="mg_top_from_img">40dp</dimen>
+</resources>
