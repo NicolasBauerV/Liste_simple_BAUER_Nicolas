@@ -4,12 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/blue_hand"
     tools:context=".Handball">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/mg_top_tv"
+        android:textColor="@color/white"
+        android:text="@string/handball"
+        android:textSize="@dimen/txtSize" />
 
     <ImageView
         android:id="@+id/img"
         android:layout_width="match_parent"
         android:layout_height="@dimen/height_img_basket"
+        android:layout_below="@id/textView4"
+        android:layout_marginTop="@dimen/mg_top_from_img"
         android:foreground="@drawable/handball_algerie_affrontera_france_prochain_tour_800x400" />
 
     <Button
@@ -17,7 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/img"
-        android:layout_marginTop="@dimen/mg_top_from_img"
         android:layout_centerHorizontal="true"
-        android:text="@string/retour"/>
+        android:layout_marginTop="@dimen/mg_top_from_img"
+        android:text="@string/retour" />
 </RelativeLayout>

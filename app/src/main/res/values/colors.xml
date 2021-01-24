@@ -8,5 +8,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="dark_green">#3A801F</color>
+    <color name="Dark_Blue">#100167</color>
+    <color name="blue_hand">#677FF6</color>
+    <color name="hockey_color">#57F1FF</color>
+    <color name="color_main_menu_bar">#878787</color>
+    <color name="main_menu_color">#CDCDCD</color>
 
 </resources>

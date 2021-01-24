@@ -3,4 +3,9 @@
     <dimen name="mg_top_list">150dp</dimen>
     <dimen name="height_img_basket">275dp</dimen>
     <dimen name="mg_top_from_img">40dp</dimen>
+    <dimen name="mg_top_tv">25dp</dimen>
+    <dimen name="txtSize">20sp</dimen>
+    <dimen name="basket_img_width">100dp</dimen>
+    <dimen name="basket_img_height">100dp</dimen>
+    <dimen name="basket_img_mg_bottom">100dp</dimen>
 </resources>
